@@ -44,3 +44,25 @@
   padding: 15px;
   margin: 0;
 }
+
+.closeBtn {
+  width: 150px;
+  height: 50px;
+
+  background-color: #a43b3b;
+  color: aliceblue;
+  font-size: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  border-radius: 8px;
+
+  transition: background-color 250ms linear;
+}
+
+.closeBtn:hover {
+  background-color: #690b0b;
+}

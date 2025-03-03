@@ -43,6 +43,14 @@ const Accordion = ({ items }) => {
           </div>
         );
       })}
+      <button
+        className={style.closeBtn}
+        onClick={() => {
+          setIndex(-1);
+        }}
+      >
+        Close all
+      </button>
     </div>
   );
 };
